@@ -1,6 +1,6 @@
 import * as Babel from '@babel/core';
 import { NodePath } from '@babel/traverse';
-import {Identifier, ArrayExpression } from '@babel/types';
+import { ArrayExpression } from '@babel/types';
 export default function(babel:typeof Babel) {
   const t = babel.types;
 

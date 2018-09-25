@@ -1,4 +1,4 @@
-# babel plugin demo with typescript
+# babel plugin demo 
 
 babel plugin demo with typescript
 
@@ -13,5 +13,5 @@ var a = [1,2,3]
 ## Out
 
 ```
-var a = {1:1, 2:2, 3:3}
+var a = {"1":1, "2":2, "3":3}
 ```

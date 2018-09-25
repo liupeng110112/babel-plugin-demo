@@ -1,0 +1,49 @@
+{
+  "name": "babel-plugin-demo",
+  "version": "0.1.0",
+  "description": "babel plugin demo with typescript",
+  "keywords": [
+    "typescript",
+    "babel-plugin"
+  ],
+  "main": "lib/index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "tsc:prod": "npm run tsc -p tsconfig.prod.json",
+    "tsc:auto": "npm run tsc -- --watch",
+    "test:cov": "jest",
+    "release": "npm run tsc:prod && npm publish --registry http://registry.npmjs.org"
+  },
+  "files": [
+    "lib",
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uyunFE/babel-plugin-demo.git"
+  },
+  "author": {
+    "name": "liupeng"
+  },
+  "homepage": "https://github.com/uyunFE/babel-plugin-demo",
+  "bugs": {
+    "url": "https://github.com/uyunFE/babel-plugin-demo/issues"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.0.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-typescript": "^7.0.0",
+    "typescript": "^3.0.3"
+  },
+  "dependencies": {
+    "@types/babel__core": "^7.0.1",
+    "@types/babel__generator": "^7.0.0",
+    "@types/babel__parser": "^7.0.0",
+    "@types/babel__template": "^7.0.0",
+    "@types/babel__traverse": "^7.0.0"
+  }
+}
